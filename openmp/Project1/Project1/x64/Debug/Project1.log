@@ -1,0 +1,29 @@
+﻿  main.cpp
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(9,17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(12,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(29,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(61,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(62,5): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+D:\VISUAL\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : см. объявление "std::vector"
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(62,21): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+D:\VISUAL\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : см. объявление "std::vector"
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(62,17): error C2514: "std::vector": невозможно создать шаблон класса.
+D:\VISUAL\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : см. объявление "std::vector"
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(66,17): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
+D:\VISUAL\VC\Tools\MSVC\14.37.32822\include\vector(1892,40): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
+D:\VISUAL\VC\Tools\MSVC\14.37.32822\include\vector(1882,34): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(66,17): message : при попытке сопоставить список аргументов "(std::vector, __int64)"
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(70,17): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
+D:\VISUAL\VC\Tools\MSVC\14.37.32822\include\vector(1892,40): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
+D:\VISUAL\VC\Tools\MSVC\14.37.32822\include\vector(1882,34): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(70,17): message : при попытке сопоставить список аргументов "(std::vector, __int64)"
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(75,35): error C2440: инициализация: невозможно преобразовать "std::vector" в "std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>"
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(75,35): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(76,5): error C2664: "void writeMatrixToFile(const std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,const std::string &)": невозможно преобразовать аргумент 1 из "std::vector" в "const std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &"
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(76,23): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>"
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(76,23): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(41,6): message : см. объявление "writeMatrixToFile"
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(76,5): message : при попытке сопоставить список аргументов "(std::vector, const char [26])"
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(91,5): error C2664: "void floydWarshall(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)": невозможно преобразовать аргумент 1 из "std::vector" в "std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &"
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(11,6): message : см. объявление "floydWarshall"
+D:\Univ\4K\RPP\openmp\Project1\Project1\main.cpp(91,5): message : при попытке сопоставить список аргументов "(std::vector)"
